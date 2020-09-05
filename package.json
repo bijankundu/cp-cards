@@ -6,8 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "github",
+    "Readme",
+    "CP"
+  ],
   "author": "Bijan Kundu",
   "license": "ISC",
+  "engines": {
+    "node": "12.18.0"
+  },
   "dependencies": {
     "axios": "^0.20.0",
     "express": "^4.17.1",
