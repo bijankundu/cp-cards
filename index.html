@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <svg
+      width="300"
+      height="170"
+      viewBox="0 0 300 170"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <style>
+        .header {
+          font: 700 18px "Segoe UI", Ubuntu, Sans-Serif;
+          fill: rgb(255, 255, 255);
+          animation: fadeInAnimation 0.8s ease-in-out forwards;
+        }
+
+        .site {
+          font: 600 16px "Segoe UI", Ubuntu, Sans-Serif;
+          fill: rgb(255, 255, 255);
+        }
+
+        .rating {
+          font: 600 16px "Segoe UI", Ubuntu, Sans-Serif;
+          fill: rgb(255, 255, 255);
+        }
+      </style>
+
+      undefined
+
+      <rect
+        data-testid="card-bg"
+        x="0.5"
+        y="0.5"
+        rx="4.5"
+        height="99%"
+        stroke="#E4E2E2"
+        width="299"
+        fill="#141321"
+        stroke-opacity="1"
+      />
+
+      <g data-testid="card-title" transform="translate(25, 30)">
+        <text
+          x="0"
+          y="0"
+          class="header"
+          data-testid="header"
+          letter-spacing="2"
+        >
+          Bijan Kundu
+        </text>
+      </g>
+      <g data-testid="codeforces" transform="translate(25, 65)">
+        <g transform="translate(0, -10)">
+          <image
+            href="https://lh3.googleusercontent.com/WsR_f03nbqW3qZjCZeXUYmnmhSWXo3hQhLX9hgl9QHydCgbXQi_VJeAwnmtuIgTHKdQ"
+            height="20"
+            width="20"
+          />
+        </g>
+        <g transform="translate(30, 5)">
+          <text x="0" y="0" class="site" data-testid="header">Codeforces</text>
+        </g>
+        <g transform="translate(150, 5)">
+          <text x="0" y="0" class="rating" data-testid="header">1600</text>
+        </g>
+      </g>
+      <g data-testid="codechef" transform="translate(25, 100)">
+        <g transform="translate(0, -10)">
+          <image
+            href="https://i.pinimg.com/originals/c5/d9/fc/c5d9fc1e18bcf039f464c2ab6cfb3eb6.jpg"
+            height="20"
+            width="20"
+          />
+        </g>
+        <g transform="translate(30, 5)">
+          <text x="0" y="0" class="site" data-testid="header">Codechef</text>
+        </g>
+        <g transform="translate(150, 5)">
+          <text x="0" y="0" class="rating" data-testid="header">1600</text>
+        </g>
+      </g>
+      <g data-testid="atcoder" transform="translate(25, 137)">
+        <g transform="translate(0, -10)">
+          <image
+            href="https://img.atcoder.jp/assets/atcoder.png"
+            height="20"
+            width="20"
+          />
+        </g>
+        <g transform="translate(30, 5)">
+          <text x="0" y="0" class="site" data-testid="header">At Coder</text>
+        </g>
+        <g transform="translate(150, 5)">
+          <text x="0" y="0" class="rating" fill="data-testid" ="header">
+            1600
+          </text>
+        </g>
+      </g>
+    </svg>
+  </body>
+</html>
