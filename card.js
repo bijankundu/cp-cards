@@ -182,7 +182,7 @@ module.exports = async (query, res) => {
       <text x="0" y="0" class="site" data-testid="header">At Coder</text>
     </g>
     <g transform="translate(150, 5)">
-      <text x="0" y="0" class="atCoder" fill="data-testid" ="header">
+      <text x="0" y="0" class="atCoder" data-testid="header">
       ${rating.atcoder}
       </text>
     </g>
