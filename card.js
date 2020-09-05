@@ -188,6 +188,6 @@ module.exports = async (query, res) => {
     </g>
   </g>
 </svg>`;
-
+  res.setHeader("Content-Type", "image/svg+xml");
   res.send(svg);
 };
