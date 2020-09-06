@@ -46,7 +46,7 @@ Change the `?atcoder=` value to your atcoder's username.
 
 This corresponds to
 
-<img src="https://cp-cards.herokuapp.com?name=Gennady Korotkevich&codeforces=tourist&codechef=gennady.korotkevich&atcoder=tourist"/>
+<img align="center" src="https://cp-cards.herokuapp.com/?name=Gennady%20Korotkevich&codeforces=tourist&codechef=gennady.korotkevich&atcoder=tourist" />
 
 <br>
 
