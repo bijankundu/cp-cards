@@ -94,6 +94,8 @@ module.exports = async (query, res) => {
       fill: rgb(255, 255, 255);
     }
 
+    .icon { fill: #f8d847 }
+
     .codeForces{
         fill: ${ratingColor.codeforces};
         font: 700 16px "Segoe UI", Ubuntu, Sans-Serif;
@@ -135,7 +137,7 @@ module.exports = async (query, res) => {
     </text>
   </g>
   <g data-testid="codeforces" transform="translate(25, 65)">
-    <g transform="translate(-4, -13)">
+    <g transform="translate(-4, -13)" class="icon">
       <svg
         width="28"
         height="28"
@@ -237,7 +239,7 @@ module.exports = async (query, res) => {
     </g>
   </g>
   <g data-testid="codechef" transform="translate(25, 100)">
-    <g transform="translate(-3, -10)">
+    <g transform="translate(-3, -10)" class="icon">
       <svg
         width="24"
         height="28"
@@ -306,7 +308,7 @@ module.exports = async (query, res) => {
     </g>
   </g>
   <g data-testid="atcoder" transform="translate(25, 137)">
-    <g transform="translate(-7, -12)">
+    <g transform="translate(-7, -12)" class="icon">
       <svg
         width="28"
         height="28"

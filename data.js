@@ -27,16 +27,20 @@ module.exports = {
 
   atcoder: async (userId) => {
     let obj = await x("https://atcoder.jp/users/" + userId, ".dl-table", [
-      { rating: "tr:nth-of-type(3)" },
+      { rating: "" },
     ]);
-    let rating = obj[0].rating;
+    let rating = obj[1].rating;
     rating = rating.replace(/\s/g, " ");
     rating = rating.split(" ");
     let newArray = [];
     rating = rating.forEach((element) => {
       if (element != "") newArray.push(element);
     });
-    rating = newArray;
-    return rating[2];
+    for (let i = 0; i < newArray.length; i++)
+      if (newArray[i] == "―") {
+        rating = newArray[i - 1];
+        break;
+      }
+    return rating;
   },
 };
