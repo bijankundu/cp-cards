@@ -11,9 +11,7 @@ module.exports = {
     );
     let rating = obj[0].rating;
     rating = rating.split(" ");
-    //   console.log(rating[2].split(")")[0]);
     rating = rating[2].split(")")[0];
-    // console.log(t);
     return rating;
   },
 
